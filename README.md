@@ -1,7 +1,7 @@
 <h1>This is java_script Notes<h1>
 
 ###Project 1
-```
+```javascript
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector("body");
 
@@ -32,7 +32,7 @@ buttons.forEach(function (button) {
 
 ###Project 2
 
-```
+```javascript
 const form = document.querySelector("form");
 // this use case will give you empty
 // const heigh = parseInt(document.querySelector('#heigh'), value)
@@ -59,7 +59,7 @@ form.addEventListener("submit", function (e) {
 
 ###Project 3
 
-```
+```javascript
 const clock = document.getElementById('clock');
 // const clock = document.querySelector('#clock')
 
@@ -74,7 +74,7 @@ setInterval(function () {
 
 ###Project 4
 
-```
+```javascript
 
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
@@ -173,7 +173,7 @@ function newGame() {
 
 ###Project 5
 
-```
+```javascript
 const insert = document.getElementById('insert');
 
 window.addEventListener('keydown', (e) => {
@@ -200,7 +200,7 @@ window.addEventListener('keydown', (e) => {
 ```
 
 ###Project 6
-```
+```javascript
 //generate a random color
 
 const randomColor = function () {
