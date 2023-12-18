@@ -27,7 +27,6 @@ buttons.forEach(function (button) {
         }
     })
 });
-
 ```
 
 ###Project 2
@@ -54,11 +53,9 @@ form.addEventListener("submit", function (e) {
         results.innerHTML = `<span>${bmi}</span>`;
     }
 });
-
 ```
 
 ###Project 3
-
 ```javascript
 const clock = document.getElementById('clock');
 // const clock = document.querySelector('#clock')
@@ -68,12 +65,9 @@ setInterval(function () {
   // console.log(date.toLocaleTimeString());
   clock.innerHTML = date.toLocaleTimeString();
 }, 1000);
-
-
 ```
 
 ###Project 4
-
 ```javascript
 
 let randomNumber = parseInt(Math.random() * 100 + 1);
@@ -170,9 +164,7 @@ function newGame() {
 
 
 ```
-
 ###Project 5
-
 ```javascript
 const insert = document.getElementById('insert');
 
@@ -195,10 +187,7 @@ window.addEventListener('keydown', (e) => {
     </div>
   `;
 });
-
-
 ```
-
 ###Project 6
 ```javascript
 //generate a random color
